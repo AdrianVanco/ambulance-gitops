@@ -9,7 +9,7 @@ spec:
     - name: base-path
       value: /xvancoa-ambulance-wl/
     - name: api-base
-      value: http://localhost:30081/api
+      value: /xvancoa-api
     - name: ambulance-id
       value: bobulova
   displayRules:
