@@ -10,6 +10,7 @@ labels:
 resources:
 - ../../../apps/xvancoa-ambulance-ufe
 - ../../../apps/xvancoa-ambulance-webapi
+- ../../../apps/mongo-express
 # - ../../../apps/polyfea-md-shell
 
 patches:
