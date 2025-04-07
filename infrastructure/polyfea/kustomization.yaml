@@ -13,3 +13,4 @@ configMapGenerator:
   - APP_TITLE=Nemocnica WAC
   - SERVICE_TYPE=NodePort
   - NODE_PORT=30331
+  

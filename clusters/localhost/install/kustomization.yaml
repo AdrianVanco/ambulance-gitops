@@ -9,6 +9,15 @@ labels:
 
 resources:
 - ../../../apps/xvancoa-ambulance-ufe
+- ../../../apps/xvancoa-ambulance-webapi
+# - ../../../apps/polyfea-md-shell
+
+patches:
+# - path: patches/material-design.microfrontend.yaml
+# - path: patches/polyfea-md-shell.microfrontend.yaml
+- path: patches/ambulance-webapi.service.yaml
+- path: patches/polyfea-fea.microfrontendclass.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/AdrianVanco/ambulance-webapi//deployments/kustomize/components/mongodb
