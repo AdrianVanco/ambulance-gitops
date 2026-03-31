@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/xvancoa-ambulance-ufe
+- ../../../apps/xvancoa-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/AdrianVanco/ambulance-webapi//deployments/kustomize/components/mongodb
