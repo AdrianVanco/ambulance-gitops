@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/xvancoa-ambulance-ufe
+- ../../../apps/xvancoa-ambulance-webapi
 
 
 components:
